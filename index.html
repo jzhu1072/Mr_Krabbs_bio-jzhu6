@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">  
+    <meta name="milestone" content="Portfolio">
+    <!-- TODO: Replace this with your title -->
+    <title>Mr.Krab's Portfolio</title>  
+    <!-- 
+			TODO: Add Bootstrap CSS link tag from: 
+      https://getbootstrap.com/docs/5.2/getting-started/introduction/
+		-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- 
+			TODO: Add Bootstrap Icons link tag from: 
+			https://icons.getbootstrap.com/
+			(Remember, the CDN link is towards the bottom of the page!)
+		-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Custom styles (these can extend the default Bootstrap styles) -->
+    <link href="https://fonts.cdnfonts.com/css/spongebob-font-condensed" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  
+  <body>
+    
+    <!-- TODO: Paste Navbar code and customize links -->  
+    
+      <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">"Hello! I like money!"</a>
+          
+          <button class="navbar-toggler"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#nav-collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div id="nav-collapse" class="collapse navbar-collapse">
+            <div class="navbar-nav ms-auto">
+              
+              <a class="nav-link" href="#scrollspyHeading1">Mission</a>
+              <a class="nav-link" href="#scrollspyHeading2">Skills</a>
+              <a class="nav-link" href="#scrollspyHeading3">Contact</a>
+              
+            </div>
+          </div>
+        
+        </div>
+      </nav>
+
+    <div data-bs-spy="scroll" data-bs-target=".navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary rounded-2" tabindex="0">
+      
+      <!-- Hero section -->
+    	<section id="hero-section">
+        <div class="krabs-container">
+          <img src="img/mrkrabs.png" alt="Mr.Krabs with a lot of money" class="krabs">
+          <h1>Eugene H. Krabs</h1>
+        </div>
+    	</section>
+   
+  	<!-- Mission/Meet-me section -->
+      <div id="scrollspyHeading1"></div>
+      <section id="mission-section">
+        
+        <h4>Mission</h4>
+        <div class="container text-center">
+          <div class="row">
+            
+            <div class="col-sm-12 col-md-6">
+                <img src="img/krabs_vs_plankton.jpeg" alt="Krabs vs Plankton">
+            </div>
+            <div class="col-sm-12 col-md-6">
+              <p>Hello! My mission is to <s>make a lot of money</s> serve the best krabby patties in Bikini Bottom and protect the Krabby Patty secret formula from Plankton! He'll never steal it! HAHAHAHA! </p>
+            </div>
+          </div>
+        </div>
+        
+    	</section>
+      
+    
+    <!-- Skills section -->
+      <div id="scrollspyHeading2"></div>
+      
+      <section id="skills-section">
+        <h4>Skills</h4>
+        <div class="container text-center">
+          <div class="row">
+            
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <img src="img/skill-1.jpeg" alt="Mr.Krabs counting money at the counter">
+              <p>Successful businessman</p>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <img src="img/skill-2.png" alt="Mr.Krabs lifts Krusty Krabs">
+              <p>Strong body</p>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <img src="img/skill-3.jpeg" alt="Mr.Krabs raising sword against skeletons">
+              <p>Swordsman</p>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <img src="img/skill-4.webp" alt="Mr.Krabs in clam fishing outfit">
+              <p>Clam fishing</p>
+            </div>
+            
+          </div>
+        </div>
+        
+    	</section>
+      
+  
+    <!-- Contact Section -->
+      <section id="contact-section">
+      <div id="scrollspyHeading3"></div>
+        <h4>Contact</h4>
+
+        <div class="container text-center">
+          <div class="row">
+            
+            <div class="col-sm-12 col-md-4">
+              <a href="###"><i class="bi bi-instagram"></i></a>
+            </div>
+            
+            <div class="col-sm-12 col-md-4">
+               <a href="###"><i class="bi bi-envelope"></i></a>
+            </div>
+            
+            <div class="col-sm-12 col-md-4">
+               <a href="###"><i class="bi bi-telephone-fill"></i></a>
+            </div>
+            
+          </div>
+        </div>
+      
+    </section>
+      
+    </div>
+  
+    <!-- Footer section -->
+    <section id="footer-section">
+      <h6>© Spongebob Squarepants</h6>
+    </section>
+  
+
+    <!-- 
+  		TODO: Paste Bootstrap JavaScript script tag from:
+  		https://getbootstrap.com/docs/5.2/getting-started/introduction/
+  	-->
+	  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  </body>
+</html>

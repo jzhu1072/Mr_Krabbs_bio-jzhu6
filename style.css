@@ -1,0 +1,142 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+body {
+  margin-top: 55px;
+}
+
+nav {
+  background-color: #b8ccf9;
+  font-family: 'SpongeBob Font Wide', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 1.7vw;
+}
+
+.nav-link {
+  color: white;
+  transition-duration: .5s;
+}
+
+.nav-link:visited {
+  color: white;
+}
+
+.nav-link:hover {
+  font-size: 25px;
+  color: black;
+}
+
+#hero-section {
+  position: relative;
+  background-image: 
+    linear-gradient(
+      rgba(0,0,0, 0), rgba(0,0,0, 0.5)), 
+    url(img/krusty_krab.webp);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 56px;
+}
+
+#hero-section h1 {
+  font-family: 'SpongeBob Font Condensed', sans-serif;
+  margin: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.krabs-container {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
+.krabs {
+  width: 45%;
+  border: 10px solid #f7a1a1;
+  border-radius: 50%;
+}
+
+
+#footer-section {
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+}
+
+p {
+  font-family: 'SpongeBob Font Wide', sans-serif;
+  letter-spacing: 2px;
+  font-size: 25px;
+  color: white;
+}
+
+h4 {
+  font-family: 'SpongeBob Font Condensed', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin: 20px 0 35px 0;
+}
+
+#mission-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #df6d6f;
+}
+
+#mission-section img {
+  width: 60%;
+  border: 10px solid white;
+  border-radius: 20%;
+}
+
+#mission-section p {
+  padding-top: 30px;
+  display: block;
+}
+
+#skills-section {
+  padding: 50px;
+  background-image: 
+    linear-gradient(
+      rgba(0,0,0, 0), rgba(0,0,0, 0.3)), 
+    url(img/background-img-3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 100;
+
+}
+
+#skills-section img {
+  object-fit: cover;
+  object-position: top;
+  width: 280px;
+  height: 210px;
+}
+
+#skills-section p {
+  margin: 20px;
+}
+
+#contact-section {
+  padding: 50px;
+  background-color: #8ea0da;
+}
+
+.bi {
+  font-size: 80px;
+  color: #f0f0f0;
+  transition-duration: .5s;
+}
+
+.bi:hover {
+  color: #85d5a1;
+}
+
+#scrollspyHeading1, #scrollspyHeading2, #scrollspyHeading3 {
+  position: relative;
+  top: -50px;
+}
